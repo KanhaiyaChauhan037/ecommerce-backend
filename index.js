@@ -23,8 +23,8 @@ app.get("/", (req, res) => {
 })
 
 var instance = new Razorpay({
-    key_id: process.env.ROZAR_ID,
-    key_secret: process.env.ROZAR_SECRET,
+    key_id: "rzp_test_rOkIYp7M7TKQAg",
+    key_secret: "HbYKn5Zw2NezeRDvxYAq0Mwe",
 });
 
 app.post("/rozar-order", async (req, res) => {
